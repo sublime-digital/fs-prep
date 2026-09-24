@@ -1,19 +1,19 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { OneComponent } from './one/one.component';
-import { TwoComponent } from './two/two.component';
-import { ThreeComponent } from './three/three.component';
-import { FourComponent } from './four/four.component';
-import { FiveComponent } from './five/five.component';
+import { MathStatComponent } from './math-and-stat/math-and-stat.component';
+import { StratCommComponent } from './strat-comm/strat-comm.component';
+import { USWorldEconomyComponent } from './us-world-economy/us-world-economy.component';
+import { GovHistoryComponent } from './gov-and-history/gov-and-history.component';
+import { SettingsComponent } from './_settings/_settings.component';
 
 const routes: Routes = [
-  { path: '',   redirectTo: 'one', pathMatch: 'full' },
-  { path: 'one', component: OneComponent },
-  { path: 'two', component: TwoComponent },
-  { path: 'three', component: ThreeComponent },
-  { path: 'four', component: FourComponent },
-  { path: 'five', component: FiveComponent },
+  { path: '',   redirectTo: 'mathstat', pathMatch: 'full' },
+  { path: 'mathstat', component: MathStatComponent },
+  { path: 'stratcomm', component: StratCommComponent },
+  { path: 'usworldeconomy', component: USWorldEconomyComponent },
+  { path: 'govhistory', component: GovHistoryComponent },
+  { path: 'settings', component: SettingsComponent },
 ];
 
 @NgModule({

@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-    selector: 'app-four',
-    templateUrl: './four.component.html',
-    styleUrls: ['./four.component.css'],
+    selector: 'app-gov-and-history',
+    templateUrl: './gov-and-history.component.html',
+    styleUrls: ['./gov-and-history.component.css'],
     standalone: false
 })
-export class FourComponent implements OnInit {
+export class GovHistoryComponent implements OnInit {
 
  
   constructor() { }

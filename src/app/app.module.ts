@@ -5,20 +5,20 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { OneComponent } from './one/one.component';
-import { TwoComponent } from './two/two.component';
-import { ThreeComponent } from './three/three.component';
-import { FourComponent } from './four/four.component';
-import { FiveComponent } from './five/five.component';
+import { MathStatComponent } from './math-and-stat/math-and-stat.component';
+import { StratCommComponent } from './strat-comm/strat-comm.component';
+import { USWorldEconomyComponent } from './us-world-economy/us-world-economy.component';
+import { GovHistoryComponent } from './gov-and-history/gov-and-history.component';
+import { SettingsComponent } from './_settings/_settings.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    OneComponent,
-    TwoComponent,
-    ThreeComponent,
-    FourComponent,
-    FiveComponent
+    MathStatComponent,
+    StratCommComponent,
+    USWorldEconomyComponent,
+    GovHistoryComponent,
+    SettingsComponent
   ],
   imports: [
     BrowserModule,

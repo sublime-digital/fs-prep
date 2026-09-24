@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-    selector: 'app-two',
-    templateUrl: './two.component.html',
-    styleUrls: ['./two.component.css'],
+    selector: 'app-strat-comm',
+    templateUrl: './strat-comm.component.html',
+    styleUrls: ['./strat-comm.component.css'],
     standalone: false
 })
-export class TwoComponent implements OnInit {
+export class StratCommComponent implements OnInit {
 
   //@Input() firstname: Customer;
 

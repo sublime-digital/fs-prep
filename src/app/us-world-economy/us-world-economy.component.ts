@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-    selector: 'app-three',
-    templateUrl: './three.component.html',
-    styleUrls: ['./three.component.css'],
+    selector: 'app-us-world-economy',
+    templateUrl: './us-world-economy.component.html',
+    styleUrls: ['./us-world-economy.component.css'],
     standalone: false
 })
-export class ThreeComponent implements OnInit {
+export class USWorldEconomyComponent implements OnInit {
 
   //@Input() firstname: Customer;
 

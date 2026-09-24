@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-    selector: 'app-one',
-    templateUrl: './one.component.html',
-    styleUrls: ['./one.component.css'],
+    selector: 'app-math-and-stat',
+    templateUrl: './math-and-stat.component.html',
+    styleUrls: ['./math-and-stat.component.css'],
     standalone: false
 })
-export class OneComponent implements OnInit {
+export class MathStatComponent implements OnInit {
 
   constructor() { }
 
