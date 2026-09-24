@@ -1,5 +1,5 @@
 {
-  "name": "fs-pro",
+  "name": "fs-prep",
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
@@ -33,7 +33,7 @@
     "@types/jasmine": "~5.1.0",
     "@types/node": "^20.11.0",
     "axe-core": "^4.13.0",
-    "cypress": "^16.1.0",
+    "cypress": "^15.21.1",
     "cypress-axe": "^1.7.0",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.4",
