@@ -1,46 +1,45 @@
 <!-- USWDS Basic Header & Navigation -->
-<header class="usa-header usa-header--basic" role="banner">
-  <div class="usa-nav-container">
+<header class="usa-header usa-header--basic" [class.usa-is-mobile-nav-open]="isMobileNavOpen" role="banner">  <div class="usa-nav-container">
     
     <!-- Navbar Brand / Logo & Mobile Menu Toggle -->
     <div class="usa-navbar">
       <div class="usa-logo" id="ag-brand">
         <em class="usa-logo__text">
           <a routerLink="mission" title="Home" aria-label="Foreign Service Prep Home">
-            <i class="bi bi-pencil-square mr-3" aria-hidden="true"></i>
-            <img src="./assets/art.png" width="110px" id="ag" alt="Foreign Service Prep logo">
+            <img src="./assets/art.png" width="180px" id="ag" alt="Foreign Service Prep logo">
           </a>
         </em>
       </div>
       <button type="button" class="usa-menu-btn" aria-label="Open mobile menu">Menu</button>
     </div>
 
-    <!-- Primary Navigation Links -->
+    <!-- Primary Navigation Links & Sliding Drawer Panel -->
     <nav aria-label="Primary navigation" class="usa-nav">
-      <button type="button" class="usa-nav__close" aria-label="Close mobile menu">
-        <!-- Optional USWDS close icon or standard text -->
-        <span aria-hidden="true">&times;</span>
-      </button>
-      
-      <ul class="usa-nav__primary usa-accordion">
-        <li class="usa-nav__primary-item">
-          <a class="usa-nav__link" routerLink="mathstat"><span>Math + Statistics</span></a>
-        </li>
-        <li class="usa-nav__primary-item">
-          <a class="usa-nav__link" routerLink="stratcomm"><span>Communication + Writing</span></a>
-        </li>
-        <li class="usa-nav__primary-item">
-          <a class="usa-nav__link" routerLink="usworldeconomy"><span>US + World Economy</span></a>
-        </li>
-        <li class="usa-nav__primary-item">
-          <a class="usa-nav__link" routerLink="govhistory"><span>Government + History</span></a>
-        </li>
-        <li class="usa-nav__primary-item">
-          <a class="usa-nav__link" routerLink="settings" aria-label="Settings">
-            <span class="material-symbols-outlined" aria-hidden="true">settings</span>
-          </a>
-        </li>
-      </ul>
+      <div class="usa-nav__inner">
+        <button type="button" class="usa-nav__close" aria-label="Close mobile menu">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        
+        <ul class="usa-nav__primary usa-accordion">
+          <li class="usa-nav__primary-item">
+            <a class="usa-nav__link" routerLink="mathstat"><span>Math + Statistics</span></a>
+          </li>
+          <li class="usa-nav__primary-item">
+            <a class="usa-nav__link" routerLink="stratcomm"><span>Communication + Writing</span></a>
+          </li>
+          <li class="usa-nav__primary-item">
+            <a class="usa-nav__link" routerLink="usworldeconomy"><span>US + World Economy</span></a>
+          </li>
+          <li class="usa-nav__primary-item">
+            <a class="usa-nav__link" routerLink="govhistory"><span>Government + History</span></a>
+          </li>
+          <li class="usa-nav__primary-item">
+            <a class="usa-nav__link" routerLink="settings" aria-label="Settings">
+              <span class="material-symbols-outlined" aria-hidden="true">settings</span>
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
   </div>
@@ -57,7 +56,7 @@
     <div class="grid-container">
       <div class="usa-footer__logo grid-row">
         <div class="grid-col-auto">
-          <p class="usa-footer__logo-heading">
+          <p class="usa-footer__logo-heading font-sans-3xs">
             Copyright © 2026 ForeignServicePrep ~ Join the US State Department
           </p>
         </div>

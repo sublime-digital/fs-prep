@@ -34,8 +34,7 @@
               "src/styles.scss"
             ],
             "scripts": [
-              "node_modules/uswds/dist/js/uswds.min.js"
-            ],
+            "node_modules/@uswds/uswds/dist/js/uswds.min.js"            ],
             "browser": "src/main.ts"
           },
           "configurations": {

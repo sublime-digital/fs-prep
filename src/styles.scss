@@ -1,14 +1,19 @@
-// Align logo and nav container items vertically center
+// Align logo and nav container items vertically center and push button to the right
 .usa-header--basic {
   .usa-nav-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .usa-navbar {
     display: flex;
     align-items: center;
+    justify-content: space-between; // Pushes logo to the left and menu button to the far right
+    width: 100%;
     height: auto !important;
   }
 
@@ -27,4 +32,50 @@
     display: flex;
     align-items: center;
   }
+}
+
+/* --- Prevent USWDS Mobile Menu Overlay Collision & Handle Toggle --- */
+.usa-header {
+  position: relative;
+  width: 100%;
+  z-index: 100;
+
+  &.usa-is-mobile-nav-open {
+    overflow: visible;
+  }
+}
+
+// Adjust the mobile nav container drawer behavior and toggle slide animation
+.usa-nav {
+  @media (max-width: 63.99em) {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 280px;
+    background-color: #ffffff;
+    box-shadow: -4px 0 15px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    visibility: hidden;
+
+    // Direct toggle class control
+    .usa-header.usa-is-mobile-nav-open & {
+      transform: translateX(0);
+      visibility: visible;
+    }
+  }
+}
+
+// Ensure your main content wrapper clears the header properly
+#main-content {
+  position: relative;
+  z-index: 1;
+}
+
+.james  {
+  width: 125px;
+  margin:8px;
+  border-radius:10px;
 }

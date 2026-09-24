@@ -14,6 +14,7 @@ export class USWorldEconomyComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.url ="https://ocw.mit.edu/courses/14-770-introduction-to-political-economy-fall-2017/";
   }
 
   name = ""

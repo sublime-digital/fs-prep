@@ -1,17 +1,21 @@
 <div class="container">
   <div class="row">
     <div class="col-md-2">
-      <img src="./assets/james-monroe.jpeg" id="james" width="150px">
+      <img src="./assets/james-monroe.jpeg" class="james" width="150px">
       <p>
     </div>
     <div class="col-md-8">
 
-      <h1>Time for US & World economy, please review these lectures:</h1>
-      <p><p><p>
-      <h4>{{name}} ... <a href={{url}} target="_blank">Study Now</a></h4>
-      <p><p><p>
+      <h3>Time for US & World economy, please review these lectures:</h3>
+      <p>
+      <h4>
+        {{name}}&nbsp;
+        <a [href]="url" target="_blank" aria-label="Study Now">
+          <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+        </a>
+      </h4>
       <!--<textarea class="md-textarea form-control" rows="10"></textarea>-->
-      <p> <button class="btn btn-primary" (click)="getNew()">Next</button>
+      <button class="btn btn-primary" (click)="getNew()">Next</button>
     </div>
     <div class="col-md-2">
     </div>
