@@ -1,0 +1,21 @@
+/* --- Scaled Down FAQ Accordions --- */
+.usa-accordion {
+  // Scale down the header buttons
+  .usa-accordion__button {
+    font-size: 0.95rem !important; // Adjust size as needed
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
+  }
+
+  // Scale down the expanded content text and spacing
+  .usa-accordion__content {
+    font-size: 0.85rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.75rem !important;
+    
+    p {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+    }
+  }
+}
