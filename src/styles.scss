@@ -1,0 +1,30 @@
+// Align logo and nav container items vertically center
+.usa-header--basic {
+  .usa-nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .usa-navbar {
+    display: flex;
+    align-items: center;
+    height: auto !important;
+  }
+
+  .usa-logo {
+    margin-top: 0 !important;
+    display: flex;
+    align-items: center;
+    
+    a {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .usa-nav {
+    display: flex;
+    align-items: center;
+  }
+}

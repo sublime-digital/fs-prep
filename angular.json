@@ -30,9 +30,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/uswds/dist/css/uswds.min.css",
+              "src/styles.scss"
             ],
             "scripts": [
+              "node_modules/uswds/dist/js/uswds.min.js"
             ],
             "browser": "src/main.ts"
           },
@@ -97,7 +99,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           }

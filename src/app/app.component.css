@@ -7,11 +7,13 @@
   'opsz' 48
 }
 
-.settings-icon {
-  position: absolute;
-  right: 30px;
-}
-
-.red-navbar {
-  background-color: black!important;
+/* Pin the USWDS slim footer to the bottom of the viewport */
+footer.usa-footer--slim {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  margin-bottom: 0 !important;
+  border-bottom: none;
 }
