@@ -1,0 +1,17 @@
+.material-symbols-outlined {
+  margin-top: 1px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.settings-icon {
+  position: absolute;
+  right: 30px;
+}
+
+.red-navbar {
+  background-color: black!important;
+}

@@ -1,0 +1,35 @@
+.canvas-container {
+  margin: auto; /* for centering, feel free to use flexbox or some other method*/
+  box-sizing: border-box;
+  padding: 0.25in; /* controls margins */
+  width: 4.5in;
+  height: 6in;
+  background-color: white;
+  box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.7);
+  font-size: 10px;
+  background-color: lightblue;
+}
+
+.infosection {
+  font-size: 8px;
+}
+
+.overview {
+  font-size: 8px;
+}
+
+.skillssection {
+  font-size: 8px;
+}
+
+.portfoliosection {
+  font-size: 8px;
+}
+
+.experiencesection {
+  font-size: 8px;
+}
+
+.educationsection {
+  font-size: 8px;
+}

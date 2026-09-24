@@ -1,0 +1,16 @@
+.mei {
+    border: 2px solid white;
+    border-radius: 25px;
+  }
+
+.mei:hover {
+    transform: scale(1.1);
+}
+
+.pick:hover {
+    transform: scale(1.1);
+}
+
+.coffee {
+    padding-top: 25px !important;
+}
