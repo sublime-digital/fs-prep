@@ -79,3 +79,22 @@
   margin:8px;
   border-radius:10px;
 }
+
+/* 1. Make the app wrapper a full-height flex column */
+html, body, app-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* 2. Force the main content area to take up all remaining vertical space */
+#main-content {
+  flex: 1;
+  padding-bottom: 4rem; /* Adds breathing room above the footer so nothing gets cut off */
+}
+
+/* 3. Ensure footer stays at the bottom naturally */
+.usa-footer {
+  margin-top: auto;
+}
